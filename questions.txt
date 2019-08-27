@@ -14,19 +14,25 @@ Open main2.py. Before running it, describe how this is different than main1.py.
 What do you think the color = input() will do? 
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+It has a line of code to output the color
+the input will be stored in color
+Yes, it did
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
+It has a logic part
 
 What is happening on lines 11–14? 
+if the color is red, it will print out "correct"
+if the color isn't red, it will print out "Sorry, try again."
 
 Why are lines 12 and 14 indented? 
+Because it's necessary for the if-else structure
 
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+it  will say "Sorry, try again".
 What does this tell you about "color"?
-
+it  will say "Sorry, try again".
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
