@@ -36,26 +36,32 @@ it  will say "Sorry, try again".
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
+It has a boolean part which main2 does not have.
 
 What problem is this trying to solve? 
+It is asking your favorite color.
 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
-
+It will turn into "Sorry, try again"
 
 Open main5.py. What do you expect line 11 to do? 
+It will turn the variable "color" into the lower case
 
 What problem is it trying to solve? 
+It is asking your favorite color and turn your input into lower case.
 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+It will show "sorry, try again."
 
 
 Open main6.py. How is line 11 different than main5.py? 
+It added .strip() in order to delete the spaces
 
 What would you guess .strip() is doing? 
+It will delete all spaces on your input
 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+No
 
 
 
