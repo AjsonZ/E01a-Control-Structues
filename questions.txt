@@ -66,28 +66,36 @@ No
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+if your input is 'pink', you will get a output of 'Close!'
 
 What is the purpose of line 11? 
+It turns all letters on 'color' into the lower case and delete all the spaces.
 
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
+To loop until the color == 'red'
 
 Why are lines 12–19 indented? 
+Becasue they are under the while structure. They are a part of while block so they need to indented.
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
+if the 'color' == 'red', the program will stop.if the 'color' equals to something else, it will print out infinite times of  ''Sorry, try again.''
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
+To loop until the color == 'red'
 
 What is the purpose of “count”? 
+to count the number of your tries.
 
 What is happening on line 22? 
+It will show how many times you'd tried
 
 Run the program.
 
@@ -97,3 +105,4 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+YES, I did
